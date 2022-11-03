@@ -1,0 +1,92 @@
+body{
+	margin: 0;
+	padding: 0;
+	
+}
+.grid{
+	float: left;
+	width: 33.33%;
+	padding: 26px;
+	box-sizing: border-box;
+}
+.clear{
+	clear:both;
+}
+.grid img{
+	width: 100%
+}
+.container{
+	background-color: #00CCFF;
+}
+.wrapper{
+	border:1px solid white;
+}
+.main-image p{
+	text-align: center;
+	color: white;
+}
+.main-image h2{
+	text-align: center;
+	color: white;
+}
+
+
+
+.white-border{
+
+
+    border: 2px solid white;
+}
+
+.stuffs-fit{
+
+width: 310px;
+height: 310px;
+    text-align: center;
+        padding: 50px;
+        
+
+        padding-top: 10px;
+        padding-right: 10px;
+        float: left;
+
+
+
+}
+
+.stuffs-img{
+
+    width: 100%;
+}
+
+.stuff-heading{
+
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.stuff-details{
+
+    color: white;
+    margin-top: 40px;
+    font-family: Arial;
+    font-weight: normal;
+    text-align: center;
+    font-size: 17px;
+    margin: 8px;
+    padding-left: 0;
+
+}
+.mission-part{
+    background-color: rgb(31, 35, 44);
+}
+@media(max-width: 575px){
+	.grid{
+		width: 100%;
+		float: none;
+	}
+}
